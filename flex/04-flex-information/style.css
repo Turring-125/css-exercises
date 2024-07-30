@@ -24,3 +24,24 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* heres the solution */
+.header{
+  display:flex;
+  gap:52px;
+}
+
+.title{
+  display:flex;
+  justify-content:center;
+}
+
+.info{
+  padding:30px;
+}
+
+body{
+  text-align: center;
+  
+}
+
