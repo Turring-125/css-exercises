@@ -24,3 +24,65 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* soln */
+
+body{
+  display:flex;
+  flex-direction:column;
+}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  color:gray;
+  padding:16px;
+}
+
+.left-links{
+  display:flex;
+  justify-content:space-between;
+  padding:0;
+  gap:15px;
+}
+
+.right-links{
+  display:flex;
+  justify-content:space-between;
+  padding:0;
+  gap:15px;
+}
+
+ul{
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+}
+
+.content{
+  display:flex;
+  flex:1;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  gap:10px;
+}
+
+.input{
+  display:flex;
+  justify-content:center;
+}
+
+.footer{
+  display:flex;
+  justify-content:space-between;
+  align-content:flex-end;
+  margin-top:150px;
+  background-color:#eeeeee;
+  padding:16px;
+}
+
+a{
+  text-decoration: none;
+  color:#666;
+}
