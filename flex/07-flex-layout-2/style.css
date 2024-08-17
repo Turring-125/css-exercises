@@ -34,8 +34,7 @@ body {
   display:flex;
   align-items: center;
   color:white;
-  font-style:oblique;
-  font-weight: bold;
+  font-weight: 900;
   font-size:30px;
 }
 
